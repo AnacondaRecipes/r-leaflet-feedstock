@@ -10,8 +10,8 @@ package:
 source:
   fn: leaflet_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/leaflet_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/leaflet/leaflet_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/leaflet_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/leaflet/leaflet_{{ version }}.tar.gz
   sha256: f474be80f40f62175c5a08aab7e549251ced9faa70d340374d522fdaf08cca15
 
 
